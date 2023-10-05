@@ -8,6 +8,11 @@ Keywords: Local features detection and description; local descriptors; image mat
 
 Detailed steps for evluation on HPatches will be released soon.
 <!---
+
+To do：
+- [x] Evaluation code and Trained model for SANFeat
+- [ ] Training code and a more detailed readme (Coming soon)
+
 # Requirement
 ```
 pip install -r requirement.txt,
