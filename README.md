@@ -6,6 +6,7 @@ The original paper can be found here: https://arxiv.org/pdf/2309.16992.pdf
 
 Keywords: Local features detection and description; local descriptors; image matching; Segment Aything Model.
 
+<!---
 # Requirement
 ```
 pip install -r requirement.txt,
@@ -30,3 +31,4 @@ Folder ```hpatch_related``` contains the pytorch dataset class for HPatches
 Folder ```models``` contains the PyTorch implementation of SAMFeat
 ```export.py``` and ```get_score.py``` are used to extract descriptors and evaluate HPatches
 ```requirements.txt``` is the environment installation reference 
+-->
