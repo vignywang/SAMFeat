@@ -6,6 +6,7 @@ The original paper can be found here: https://arxiv.org/pdf/2309.16992.pdf
 
 Keywords: Local features detection and description; local descriptors; image matching; Segment Aything Model.
 
+Detailed steps for evluation on HPatches will be released soon.
 <!---
 # Requirement
 ```
