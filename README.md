@@ -5,7 +5,7 @@ Implementation of "Segment Anything Model is a Good Teacher for Local Feature Le
 Keywords: Local features detection and description; local descriptors; image matching; Segment Aything Model.
 
 To do：
-- [x] Evaluation code and Trained model for SANFeat
+- [x] Evaluation code and Trained model for SAMFeat
 - [ ] Training code (Coming soon)
 
 # Requirement
