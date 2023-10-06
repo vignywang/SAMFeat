@@ -26,6 +26,7 @@ cd evaluation_hpatch
 python export.py --top-k 10000 --tag SAMFeat --output_root output_path --config PATH_TO_SAMFeat_eva.yaml
 ```
 This will extract descriptors and place it under the output folder
+
 4. Evaluation
 ```
 python get_score.py
