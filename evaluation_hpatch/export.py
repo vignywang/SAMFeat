@@ -147,7 +147,7 @@ if __name__ == '__main__':
                 outpath = Path(output_dir, image_name)
                 np.savez(str(outpath), **predictions)
             else:
-                output_dir = Path(output_root,args.tag, folder_name)
+                output_dir = Path(output_root, folder_name)
                 output_dir.mkdir(parents=True, exist_ok=True)
                 outpath = Path(output_dir, image_name + '.ppm.' + args.tag)
                 np.savez(open(outpath, 'wb'), **predictions)
