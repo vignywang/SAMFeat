@@ -20,7 +20,7 @@ HPatches Image Matching Benchmark
 
 ```cd ckpt```
 
-Use the link to download our trained model checkpoint from Google Drive. Place it under the ```ckpt``` folder.
+Use the link https://drive.google.com/file/d/1NTRGZ2aJnT59_6b-n_SFY33jOwwxCJOM/view?usp=drive_link to download our trained model checkpoint from Google Drive. Place it under the ```ckpt``` folder.
 
 2. Download HPatches benchmark: 
 
