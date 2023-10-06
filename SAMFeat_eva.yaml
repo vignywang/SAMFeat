@@ -1,0 +1,21 @@
+hpatches:
+    dataset_dir: /media/data/wjq/HPatches
+    resize: false
+    grayscale: false
+
+model:
+    name: SAMFeat
+    backbone: network.SAMFeat_V3_3
+    detection_threshold: 0.9 # used to be 0.9
+    nms_dist: 4
+    nms_radius: 4
+    border_remove: 4
+    weight_path: /media/data/wjq/SAMFeat/ckpt/
+    ckpt_name: SAMFeat_V3_3_cat_PAM_B14 #mtl_mtldesc
+    weights_id: model_29.pt
+    desc_dim: 128
+
+keys: keypoints,descriptors,shape
+output_type: normal #benchmark #
+
+
