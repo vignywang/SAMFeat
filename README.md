@@ -6,7 +6,7 @@ Keywords: Local features detection and description; local descriptors; image mat
 
 To do：
 - [x] Evaluation code and Trained model for SAMFeat
-- [x] Training code (Released)
+- [ ] Training code (Coming Soon)
 
 # Requirement
 ```
