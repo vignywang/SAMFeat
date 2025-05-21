@@ -1,0 +1,44 @@
+name: SAMFeat
+trainer: SAMFeat_trainer.SAMFeat_Trainer
+
+model:
+    backbone: network.SAMFeat_V3_3_PAM
+
+train:
+    adjust_lr: true
+    lr: 0.001
+    weight_decay: 0.0001
+    lr_mod: LambdaLR
+    batch_size: 12
+    epoch_num: 30
+    maintain_epoch: 0
+    decay_epoch: 30
+    log_freq: 100
+    num_workers: 8
+    validate_after: 1000
+
+    desc_dim: 128
+
+    Distillation_loss: AF # 'KL', 'L1', or 'AF' or None
+    Edge_loss: MSE
+    NCE_cat_loss: True
+
+    sam_feature: /media/data/wjq/SAM_offline/merged_data #feature_edge #
+
+    dataset: megadepth_train_dataset.MegaDepthTrainDataset_WithSamFeatureAndCat #MegaDepthTrainDataset_WithSamFeature #
+    mega_image_dir: /media/data/wjq/Mega_train/image
+    mega_keypoint_dir: /media/data/wjq/Mega_train/keypoint
+    mega_despoint_dir: /media/data/wjq/Mega_train/despoint
+    height: 400
+    width: 400
+
+    T: 14
+    T2: 5 #default 0.3 best 5
+    margin: 0.07 # sum最好是0.05, 0.07(MS会低) #加上PAM会更加balance，目前0.07最好
+    fix_grid_option: 400
+    fix_sample: false
+    rotation_option: none
+    do_augmentation: true
+    sydesp_type: nomal # random
+    point_loss_weight: 200
+    w_weight: 0.1
