@@ -6,14 +6,14 @@ Keywords: Local features detection and description; local descriptors; image mat
 
 To do：
 - [x] Evaluation code and Trained model for SAMFeat
-- [ ] Training code (Coming soon)
+- [x] Training code (Released)
 
 # Requirement
 ```
 conda env create -f environment.yml,
 ```
 
-# Quick start
+# Quick Evaluation
 HPatches Image Matching Benchmark
 
 1. Download trained SAMFeat model:
@@ -42,3 +42,5 @@ This will extract descriptors and place it under the output folder
 python get_score.py
 ```
 This will print out the MMA score from threshold 1-to-10 and output a Pdf MMA Curve
+
+# Training from Scratch
