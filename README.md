@@ -44,4 +44,6 @@ python get_score.py
 This will print out the MMA score from threshold 1-to-10 and output a Pdf MMA Curve
 
 # Training from Scratch
+```
 python train.py --gpus 1 --configs PATH_TO/configs/SAMFeat_train.yaml --indicator NAME
+```
