@@ -1,6 +1,6 @@
 # SAMFeat (Local features detection and description)
 
-Implementation of IEEE TIP paper "Segment Anything Model is a Good Teacher for Local Feature Learning" (http://arxiv.org/abs/2309.16992).
+Implementation of IEEE TIP paper "Segment Anything Model is a Good Teacher for Local Feature Learning" (https://ieeexplore.ieee.org/document/10945548/).
 
 Keywords: Local features detection and description; local descriptors; image matching; Segment Aything Model.
 
